@@ -1,1 +1,42 @@
 /* You can add global styles to this file, and also import other style files */
+
+body{
+    font-family: 'Noto Sans Mono', monospace;
+}
+:root{
+    --color1: #2B2E5B;
+    --color2: #274073;
+    --color3: #EECC37;
+    --color4: #F28A2E;
+    --color5: #F24E29;
+    --color-blanco: #FFFFFF;
+    --color-negro: #000000;
+    --gris-claro: #CCCCCC;
+    --gris-oscuro: #333333;
+}
+
+h1{
+    font-weight: 900;
+    font-size: 36px;
+    letter-spacing: -2px;
+}
+
+h2{
+    font-weight: 300;
+    font-size: 32px;
+    letter-spacing: -2px;
+    text-transform: lowercase;
+    text-align: center;
+    padding-bottom: 45px;
+}
+
+h3{
+    font-weight: 500;
+    font-size: 20px;
+    text-transform: uppercase;
+}
+
+.padded{
+    padding-top: 90px;
+    padding-bottom: 90px;
+}
