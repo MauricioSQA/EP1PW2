@@ -1,0 +1,42 @@
+#containerBanner{
+    position: relative;
+}
+#bannerImagen{
+    background-image: url("src\assets\juegosComponent\Header_1_edit.jpg");
+    background-size: cover;
+    padding-top: 500px;
+    margin-bottom: 20px;
+}
+#container2{
+    left: 50%;
+    transform: translate(-50%, 0);
+    top: 50%;
+    transform: translateY(-50%, 0);
+    position: absolute;
+    color: #fff;
+    
+}
+strong{
+    font-weight: bolder;
+    
+}
+h1{
+    font-size: 4.5em;
+    letter-spacing: .05em;
+}
+p{
+    color: #f1f1f1;
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+#contenedor3{
+ margin-left: 10;
+ margin-right: 10;
+ padding: 0;
+}
+table{
+    width: 100%;
+}
