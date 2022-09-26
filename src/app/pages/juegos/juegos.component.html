@@ -1,17 +1,16 @@
-    <div class="banner-inner fill" id="containerBanner">
-        <div class="bg fill bg-fill bg-loaded" id="bannerImagen"></div>
-            <div class="text-inner text-center" id="textoBanner">
-                    <div class="" id="container2">
-                        <h1 class="uppercase">
-                            <strong>Core Features</strong>
-                        </h1>
-                        <p class="lead">Quick Overview of Flatsome Core Features</p>
-                    </div>
-                </div>
+
+    <div id="containerBanner">
+        <div class="image"></div>
+            <div id="bannerTxt">
+                <h1 class="uppercase">
+                  <strong>Juegos</strong>
+                </h1>  
+                  <p class="lead">Tabla de datos de juegos</p>
             </div>
-    <div class="container" id="contenedor3">
-      <table class="table" id="table">
-        <thead class="table-dark">
+    </div>
+    <div id="tablaJuegos">
+      <table class="table">
+        <thead class="table-light">
           <tr>
             <th scope="col">Dominios</th>
             <th scope="col">País</th>
@@ -21,7 +20,7 @@
         </thead>
         <tbody>
           <tr *ngFor="let item of listaJuegos">
-            <th scope="row">{{item.domains}}</th>
+            <td>{{item.domains}}</td>
             <td>{{item.country}}</td>
             <td>{{item.web_pages}}</td>
             <td>{{item.name}}</td>
