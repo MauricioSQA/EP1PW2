@@ -13,6 +13,7 @@ import { MainNavComponent } from './common/main-nav/main-nav.component';
 import { JuegosComponent } from './pages/juegos/juegos.component';
 import { UsuariosComponent } from './pages/usuarios/usuarios.component';
 import { InicioComponent } from './pages/inicio/inicio.component';
+import { PresentacionComponent } from './home/presentacion/presentacion.component';
 
 @NgModule({
   declarations: [
@@ -25,7 +26,8 @@ import { InicioComponent } from './pages/inicio/inicio.component';
     MainNavComponent,
     JuegosComponent,
     UsuariosComponent,
-    InicioComponent
+    InicioComponent,
+    PresentacionComponent
   ],
   imports: [
     BrowserModule,

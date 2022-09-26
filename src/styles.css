@@ -13,6 +13,10 @@ body{
     --color-negro: #000000;
     --gris-claro: #CCCCCC;
     --gris-oscuro: #333333;
+    --colortitle:#555;
+    --colorbodyblanco:#fff;
+    --colorbotonazul:#446084;
+    --colorhover:#333;
 }
 
 h1{
