@@ -19,7 +19,9 @@ export class JuegosComponent implements OnInit {
         this.listaJuegos = JSON.parse(JSON.stringify(res));
       }
   )
+}
 
-  }
+
+  
 
 }
