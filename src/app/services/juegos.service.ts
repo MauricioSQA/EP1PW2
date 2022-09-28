@@ -1,4 +1,4 @@
-import { HttpClient, HttpHeaders } from '@angular/common/http';
+import { HttpClient } from '@angular/common/http';
 import { Injectable } from '@angular/core';
 
 @Injectable({
@@ -6,10 +6,12 @@ import { Injectable } from '@angular/core';
 })
 export class JuegosService {
 
+
   constructor(private http: HttpClient) { }
 
   juegosSelect(){
-    const ruta = "http://universities.hipolabs.com/search?country=United+Kingdom";
+    const ruta = "https://date.nager.at/api/v2/publicholidays/2020/US";
     return this.http.get(ruta);
   }
+
 }
