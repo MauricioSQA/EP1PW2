@@ -14,6 +14,8 @@ import { JuegosComponent } from './pages/juegos/juegos.component';
 import { UsuariosComponent } from './pages/usuarios/usuarios.component';
 import { InicioComponent } from './pages/inicio/inicio.component';
 import { PresentacionComponent } from './home/presentacion/presentacion.component';
+import { LoginComponent } from './home/login/login.component';
+import { CardsComponent } from './home/cards/cards.component';
 
 @NgModule({
   declarations: [
@@ -27,7 +29,9 @@ import { PresentacionComponent } from './home/presentacion/presentacion.componen
     JuegosComponent,
     UsuariosComponent,
     InicioComponent,
-    PresentacionComponent
+    PresentacionComponent,
+    LoginComponent,
+    CardsComponent
   ],
   imports: [
     BrowserModule,

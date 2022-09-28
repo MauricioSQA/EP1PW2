@@ -1,4 +1,4 @@
-#formato{
+#presentacion{
     background-color: var(--colorbodyblanco);
     
     margin-top: 0px;
@@ -35,7 +35,7 @@ h5{
     color:var(--colortitle)
 }
 
-
+/*
 .efecto-image:hover {   
     -webkit-transform:scale(0.9);
     transform:scale(0.9);   
@@ -45,7 +45,7 @@ h5{
     transition-duration: .5s;
     transition-property: transform;   
 }
-
+*/
 .center-titulo{    
     text-align: center;
     margin-bottom: 24px;
